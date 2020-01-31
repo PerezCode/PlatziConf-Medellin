@@ -12,6 +12,15 @@
   color: white;
 }
 
+.badge-platzi {
+  background-color: #a4c639;
+}
+
+.badge-java {
+  background-color: #84223f;
+  color: white;
+}
+
 header img {
   width: 80px;
 }
