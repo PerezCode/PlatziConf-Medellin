@@ -35,7 +35,7 @@
                 <a class="nav-link" href="#conviertete-en-speaker">Conviértete en speaker</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-platzi" href="#">Comprar tickets</a>
+                <a class="nav-link text-platzi" href="#" data-toggle="modal" data-target="#modal-compra">Comprar tickets</a>
               </li>
             </ul>
           </div>
@@ -66,7 +66,7 @@
                     <h1>PlatziConf Medellin</h1>
                     <p class="d-none d-md-block">¡PlatziConf llega a Medellin! Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de internet. Ven a conocer a miembros del team Platzi, a otros estudiantes de Platzi y a los speakers de primer nivel que tenemos para ti. Te esperamos!</p>
                     <a href="#" class="btn btn-outline-light">Quiero ser speaker</a>
-                    <button class="btn btn-platzi">Comprar tickets</button>
+                    <button class="btn btn-platzi" data-toggle="modal" data-target="#modal-compra">Comprar tickets</button>
                   </div>
                 </div>
               </div>
@@ -256,6 +256,46 @@
       </div>
     </footer>
     <!-- /Footer -->
+
+    <!-- Modal compra-->
+    <div class="modal fade" id="modal-compra" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">Comprar tickets</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Nombre">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Apellido">
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Username de Platzi" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+              </div>
+            </form>
+            <div class="alert alert-warning" role="alert">
+              Recibás un correo con el siguiente paso.
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-platzi">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal compra-->
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
