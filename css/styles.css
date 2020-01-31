@@ -51,6 +51,17 @@ main .carousel-inner img {
   height: 100%;
 }
 
+.Lugar-fecha {
+  background-color: #343a40;
+  color: white;
+}
+
+.Lugar-fecha img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 footer {
   background-color: rgb(25, 48, 60);
 }
